@@ -35,13 +35,13 @@
           <span>What toppings would you like?</span>
           <br>
           <!--Add your code below for the first checkbox-->
-          <input id="lettuce" name="topping" type="checkbox" value="lettuce" >
+          <input id="lettuce" name="topping" type="radio" value="lettuce" >
 					<label for="lettuce">Lettuce</label>
           <!--Add your code below for the second checkbox-->
-          <input id="tomato" name="topping" type="checkbox" value="tomato" >
+          <input id="tomato" name="topping" type="radio" value="tomato" >
           <label for="tomato">Tomato</label>
           <!--Add your code below for the third checkbox-->
-          <input id="tomato, lettuse" type="checkbox" name="topping" value="tomato, lettuce" >
+          <input id="tomato, lettuse" type="radio" name="topping" value="tomato, lettuce" >
           <label for="tomato, lettuse">Both</label>
 
         </section>
