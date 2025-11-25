@@ -1,0 +1,10 @@
+let myAge = 22; // This is my Age 
+let earlyYears = 2 // This is a variable
+earlyYears = earlyYears * 10.5; // earlyYears multiplied by it value
+laterYears = myAge - 2;  // Prints the laterYears with 2 subtracted from it value
+laterYears = laterYears * 4; // multiplies laterYears value by 4
+console.log(earlyYears);
+console.log(laterYears);
+myAgeInDogYears = earlyYears + laterYears; // My age in dog years!
+myName = 'Azeem Akande'.toLowerCase();  // My name in lowercase letters
+console.log(`My name is ${myName}. I am ${myAge} years old in human years, which is ${myAgeInDogYears} years old in dog years.`); // Prints a sentence displaying my name and my age in human and dog years
