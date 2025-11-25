@@ -1,0 +1,8 @@
+const kelvin = 293; // Output prints 293
+const celsius = kelvin - 273; // Output prints 20
+let fahrenheit = celsius * (9 / 5) + 32; // Output prints 68
+fahrenheit = Math.floor(fahrenheit);  // Prints an integer as output
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
+let newton = celsius * (33 / 100);  // Prints output in Newton
+newton = Math.floor(newton);  // Prints an integer output
+console.log(`The temperature is ${newton} degrees Newton.`);
