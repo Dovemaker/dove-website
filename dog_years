@@ -1,8 +1,8 @@
 let myAge = 22; // This is my Age 
 let earlyYears = 2 // This is a variable
-earlyYears = earlyYears * 10.5; // earlyYears multiplied by it value
+earlyYears *= 10.5; // earlyYears multiplied by it value
 laterYears = myAge - 2;  // Prints the laterYears with 2 subtracted from it value
-laterYears = laterYears * 4; // multiplies laterYears value by 4
+laterYears *= 4; // multiplies laterYears value by 4
 console.log(earlyYears);
 console.log(laterYears);
 myAgeInDogYears = earlyYears + laterYears; // My age in dog years!
